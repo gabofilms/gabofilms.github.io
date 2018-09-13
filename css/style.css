@@ -70,7 +70,7 @@ p.servicios {
 .big-background {
     z-index: 550;
     text-align:center;
-    min-height:75%;
+    min-height:100%;
     position:relative;
     overflow:hidden
 }
@@ -152,7 +152,6 @@ a.big-background-btn {
 
 .about-section-container {
     text-align:center;
-    padding-bottom:50px
 }
 
 .about-section-title {
@@ -200,7 +199,7 @@ a.about-section-btn {
 ================================================== */
 .small-background-section {
     font-family:'Lato',sans-serif;
-    padding:100px 0;
+    padding:75px 0 25px 0;
     position:relative;
     width:100%;
     overflow:hidden;
@@ -239,7 +238,24 @@ a.about-section-btn {
     color:#bdc3c7
 }
 
+ul.socials {
+    padding-left: 0px;
+}
 
+
+/* FOOTER
+================================================== */
+
+.text-footer {
+    padding-top: 30px;
+    color:#f1c40f;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer {
+    text-align: center;
+}
 
 
 /* MEDIA QUERIES
