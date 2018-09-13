@@ -25,7 +25,7 @@
             myPlayer = $(".player").mb_YTPlayer({
             onReady: function( player ) {
                            var filters = {
-                              grayscale: 60,
+                              grayscale: 0,
                            }
                            myPlayer.YTPApplyFilters(filters)
                            $(".pattern").removeClass("pattern");

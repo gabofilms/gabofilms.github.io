@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css" media="all">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic|Montserrat:400,200,300,500,700,600,800,900' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
 
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/device.min.js"></script> <!--OPTIONAL JQUERY PLUGIN-->
@@ -22,8 +23,8 @@
 
 <body>
     
-    <section class="big-background">
-        <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=0gxRbWWbbkM',containment:'body',autoPlay:true, mute:true, startAt:8, opacity:1}"></a>
+    <section id="video" class="big-background">
+        <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=0gxRbWWbbkM',containment:'#video',autoPlay:true, mute:true, startAt:2, opacity:1, quality:'highres'}"></a>
         <div class="pattern"></div> 
             <div class="big-background-container">
                     <h1 class="big-background-title">GABO</h1>
@@ -41,7 +42,9 @@
      
                 <div class="about-section-container">
                     <h2 class="about-section-title">SERVICIOS</h2>
-                    <p>Relleno relleno relleno relleno relleno <br/>Relleno relleno relleno relleno relleno relleno relleno relleno relleno relleno relleno relleno  <br/>Relleno relleno relleno relleno relleno relleno relleno relleno relleno relleno relleno relleno relleno </p>
+                    <p class="servicios">Fashion Films</p>
+                    <p class="servicios">Videoclips Musicales</p>
+                    <p class="servicios">Videos Publicitarios</p>
                     <!-- <a href="https://github.com/pupunzi/jquery.mb.YTPlayer" target="_blank" class="about-section-btn">Check it here</a> -->
                 </div>
 
@@ -49,7 +52,6 @@
             
 
      <section class="small-background-section">
-        <div class="pattern"></div>
                     <div class="small-background-container">
                         <h2 class="small-background-title"><span>SEGUIME EN</span></h2>
                          <ul class="socials">
