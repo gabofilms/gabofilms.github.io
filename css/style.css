@@ -14,6 +14,10 @@ body {
     -webkit-text-size-adjust:100%
 }
 
+hr {
+    width: 80%;
+    color: #E4E4E4;
+}
 
 p {
     font-size:20px;
@@ -21,11 +25,21 @@ p {
     text-align:center
 }
 
-
 ul li {
     display:inline-block;
     list-style:none;
     padding-right: 10px;
+}
+
+.telephone {
+    color: white;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.portfolio-element {
+    width: 30%;
+    margin: 20px 10px;
 }
 
 .wrapper {
@@ -279,6 +293,9 @@ ul.socials {
 @media screen and (max-width: 768px) {
 .about-section-title {
     line-height:1
+}
+.portfolio-element {
+    width: 90%;
 }
 }
 
