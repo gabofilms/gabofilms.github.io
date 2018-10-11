@@ -76,6 +76,10 @@ ul li {
     margin-top: 0px;
 }
 
+.number {
+    font-size: 25px;
+}
+
 p.servicios {
     text-transform:uppercase;
     font: 32px;
