@@ -35,6 +35,7 @@ ul li {
     color: white;
     text-align: left;
     margin-left: 25px;
+    font-size: 2em;
 }
 
 .portfolio-element {
@@ -300,11 +301,19 @@ ul.socials {
 .portfolio-element {
     width: 90%;
 }
+.telephone {
+    font-size: 1.5em;
+}
 }
 
 @media screen and (max-width: 480px) {
 .big-background-title {
     font-size:58px
+}
+
+.telephone {
+    text-align: center;
+    margin-left: 0px;
 }
 
 .small-background-title {
